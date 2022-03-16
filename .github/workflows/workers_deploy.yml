@@ -1,7 +1,7 @@
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Deploy site
     steps:
       - uses: actions/checkout@master
       - name: Build site
